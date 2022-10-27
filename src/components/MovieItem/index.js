@@ -33,7 +33,6 @@ const MovieItem = props => {
                   className="react-player"
                   url={videoUrl}
                   width={500}
-                  height={500}
                 />
               </div>
               <div className="closeButtonContainer">
