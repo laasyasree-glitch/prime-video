@@ -8,6 +8,13 @@ import ReactPlayer from 'react-player'
 import './index.css'
 
 const MovieItem = props => {
+  const settings = {
+    playing: true,
+    controls: true,
+    loop: true,
+    light: true,
+    volume: 1,
+  }
   const {details} = props
   const {thumbnailUrl, videoUrl} = details
   return (
@@ -32,7 +39,8 @@ const MovieItem = props => {
                 <ReactPlayer
                   className="react-player"
                   url={videoUrl}
-                  width={500}
+                  width={400}
+                  {...settings}
                 />
               </div>
               <div className="closeButtonContainer">
