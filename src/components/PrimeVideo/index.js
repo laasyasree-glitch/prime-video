@@ -13,11 +13,16 @@ class PrimeVideo extends Component {
         <img
           src="https://assets.ccbp.in/frontend/react-js/prime-video-img.png"
           alt="prime video"
+          className="img"
         />
-        <h1>Action Movies</h1>
-        <MoviesSlider moviesList={actionMovies} />
-        <h1>Comedy Movies</h1>
-        <MoviesSlider moviesList={comedyMovies} />
+        <div>
+          <h1>Action Movies</h1>
+          <MoviesSlider moviesList={actionMovies} />
+        </div>
+        <div className="cont2">
+          <h1>Comedy Movies</h1>
+          <MoviesSlider moviesList={comedyMovies} />
+        </div>
       </div>
     )
   }

@@ -39,7 +39,7 @@ const MovieItem = props => {
                 <ReactPlayer
                   className="react-player"
                   url={videoUrl}
-                  width={400}
+                  width={500}
                   {...settings}
                 />
               </div>

@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 .closeButtonContainer {
   display: flex;
@@ -46,4 +47,7 @@
 .popup-content {
   width: 580px;
   height: 400px;
+}
+.react-player {
+  width: 100%;
 }
