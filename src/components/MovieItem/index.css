@@ -13,6 +13,11 @@
   display: flex;
   justify-content: flex-end;
   align-self: flex-start;
+  border-width: 0px;
+}
+.icon {
+  color: white;
+  font-size: 25px;
 }
 .trigger-button {
   background-color: transparent;
@@ -26,6 +31,7 @@
   align-items: center;
   border-radius: 2%;
   width: 100%;
+  background-color: black;
 }
 .video {
   width: 100%;
@@ -34,13 +40,17 @@
   padding: 2%;
   display: flex;
   justify-content: space-between;
-  border-radius: 25%;
+  background-color: black;
+  margin: 0%;
 }
 @media screen and (max-width: 768px) {
   .card {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  .icon {
+    font-size: 20px;
   }
 }
 

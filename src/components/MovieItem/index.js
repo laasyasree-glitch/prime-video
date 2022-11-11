@@ -49,7 +49,7 @@ const MovieItem = props => {
                   className="trigger-button"
                   onClick={() => close()}
                 >
-                  <IoMdClose />
+                  <IoMdClose class="icon" />
                 </button>
               </div>
             </div>
